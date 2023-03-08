@@ -1,0 +1,69 @@
+.animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  
+  button {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+
+  
+  .info-btn {
+    transition: all 0.3s ease-in-out;
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  
+  .info-btn:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+
+
+  .img-effect:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  

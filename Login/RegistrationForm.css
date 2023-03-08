@@ -1,0 +1,196 @@
+body {
+    background-image:  url('../Client/img/Online\ consulting-rafiki.png');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    
+  }
+  
+
+
+
+  
+
+.registration-form {
+  max-width: 500px;
+  margin: 20px auto 20px;
+  /* padding: 10px; */
+  overflow-y: auto;
+  /* height: 0vh; */
+  }
+  
+  .registration-form h2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  /* .registration-form .form-group {
+    position: fixed;
+    margin-bottom: 2.5rem;
+  } */
+  
+  .registration-form .form-control {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 2.2s ease-in-out;
+  }
+  
+  .registration-form .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 1px;
+  }
+  
+ 
+  .registration-form .form-control:valid {
+    border-color: #007bff
+  }
+ 
+  
+  .registration-form .form-check-label {
+    font-size: 14px;
+    color: #161414;
+    cursor: pointer;
+    transition: color 1.2s ease-in-out;
+  }
+  
+  .registration-form .form-check-label:hover {
+    color: #007bff;
+  }
+  
+  .registration-form .form-select {
+    appearance: none;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .registration-form .form-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .registration-form .form-select:focus + label {
+    top: 0;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .registration-form .form-select:valid + label {
+    top: 0;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .registration-form .form-select:valid {
+    border-color: #007bff;
+  }
+    
+
+
+  .registration-form label {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .registration-form input,
+  .registration-form select {
+    font-size: 14px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .registration-form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-size: 14px;
+    max-width: 500px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .registration-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .registration-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  .registration-form button {
+    
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    background-color: #399a91;
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0069d9;
+    transform: translateY(-2px);
+  }
+  
+
+
+
+  /* Style the checkbox label */
+#termsOfService label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+#termsOfService input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+
+/* Style the checkbox when it is not checked */
+#termsOfService input[type="checkbox"] + label::before {
+  content: "\f00d"; /* This is the Unicode character for an X icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #c00;
+}
+
+
+
+  
+
+/* .background-video {
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: fixed;
+}
+
+.background-video video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+} */
+

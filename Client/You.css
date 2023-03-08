@@ -1,0 +1,95 @@
+body {
+    /* background-image:  url('../Client/img/International\ trade-amico.png'); */
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    
+  }
+
+.my-card {
+    width: 18rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .my-card:hover {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .my-card {
+    width: 18rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .my-card:hover {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .my-card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://source.unsplash.com/random');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .my-card:hover .my-card-image {
+    opacity: 0.7;
+  }
+  
+  .my-card:hover .card-title,
+  .my-card:hover .card-subtitle,
+  .my-card:hover .btn-primary {
+    color: #fff;
+  }
+  
+  .my-card:hover .card-title {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .my-card:hover .card-subtitle {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .my-card:hover .btn-primary {
+    background-color: #000;
+    border-color: #000;
+  }
+  
+  .my-card:hover .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .my-card-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .my-card-rating i {
+    color: #ffc107;
+  }
+  
+  .my-card-rating-count {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #777;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  }
+  
